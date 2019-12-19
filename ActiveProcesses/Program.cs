@@ -15,9 +15,7 @@ namespace FYK.SQLTools.ActiveProcesses
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            var arguments = new Arguments(args);
-            bool preFill = (arguments["prefill"] != null);
-            Application.Run(new MainForm(preFill));
+            Application.Run(new MainForm());
         }
     }
 }

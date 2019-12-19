@@ -19,20 +19,6 @@ namespace FYK.SQLTools.ActiveProcesses
         #endregion
 
         #region Ctors
-        public MainForm(bool preFill) : this()
-        {
-            _preFill = preFill;
-            if (preFill)
-            {
-                _connectionInfo = new SqlConnectionStringBuilder
-                {
-                    DataSource = "192.168.2.90,20106",
-                    IntegratedSecurity = false,
-                    UserID = "sa",
-                    Password = "f+fwilIUlHBjs13614**+sdf"
-                };
-            }
-        }
         public MainForm()
         {
             InitializeComponent();
