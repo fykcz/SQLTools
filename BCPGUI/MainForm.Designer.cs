@@ -1,4 +1,4 @@
-﻿namespace Astratex.ITTools.BCPGUI
+﻿namespace FYK.ITTools.BCPGUI
 {
     partial class MainForm
     {

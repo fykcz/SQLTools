@@ -6,7 +6,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
-namespace Astratex.ITTools.BCPGUI
+namespace FYK.ITTools.BCPGUI
 {
     public partial class MainForm : Form
     {

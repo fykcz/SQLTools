@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace FYK.ITTools.BCPGUI.Properties {
+namespace FYK.SQLTools.ActiveProcesses.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace FYK.ITTools.BCPGUI.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("FYK.ITTools.BCPGUI.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("FYK.SQLTools.ActiveProcesses.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -57,6 +57,25 @@ namespace FYK.ITTools.BCPGUI.Properties {
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap arrow_refresh {
+            get {
+                object obj = ResourceManager.GetObject("arrow_refresh", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to SELECT [p].[spid], [p].[blocked], RTRIM([p].[loginame]) AS [loginame], RTRIM([p].[hostname]) AS [hostname], RTRIM([p].[program_name]) AS [program_name], RTRIM([db].[name]) AS [database], [p].[last_batch], [p].[kpid], CAST([p].[waittime] AS BIGINT) AS [waittime], RTRIM([p].[lastwaittype]) AS [lastwaittype], RTRIM([p].[waitresource]) AS [waitresource], [p].[dbid], [p].[uid], CAST([p].[cpu] / 1000 AS BIGINT) AS  [cpu], CAST([p].[physical_io] AS BIGINT) AS [physical_io], [p].[memusage], [p].[login_time], [p].[e [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string SqlStatement {
+            get {
+                return ResourceManager.GetString("SqlStatement", resourceCulture);
             }
         }
     }

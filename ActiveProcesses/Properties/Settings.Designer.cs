@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace FYK.ITTools.BCPGUI.Properties {
+namespace FYK.SQLTools.ActiveProcesses.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
