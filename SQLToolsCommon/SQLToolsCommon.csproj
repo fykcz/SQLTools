@@ -52,11 +52,20 @@
     <Compile Include="ConnectForm.Designer.cs">
       <DependentUpon>ConnectForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ConnectToSQL.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ConnectToSQL.Designer.cs">
+      <DependentUpon>ConnectToSQL.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="ConnectForm.resx">
       <DependentUpon>ConnectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConnectToSQL.resx">
+      <DependentUpon>ConnectToSQL.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
