@@ -26,6 +26,10 @@ namespace FYK.SQLTools.SQLToolsCommon
             InitializeComponent();
             connectionInfo = null;
         }
+        public void SetConnection(SqlConnectionStringBuilder info)
+        {
+            connectionInfo = info;
+        }
 
         private void connect_Button_Click(object sender, EventArgs e)
         {
